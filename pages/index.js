@@ -1,5 +1,5 @@
-import  Link  from '../src/components/Link'
-
+ /* import  Link  from '../src/components/Link'
+import Footer from '../src/components/patterns/Footer';
 
 
 
@@ -20,10 +20,6 @@ function Title({children, as}) {
     )
 }
 
-
-
-
-
 export default function HomePage () {
     return(
         <div>
@@ -31,6 +27,11 @@ export default function HomePage () {
            <Link href="/faq">
             Ir para o faq
            </Link>
+           <Footer/>
         </div>
     )
-}
+} */
+
+import HomeScreen from '../src/screens/HomeScreen';
+
+export default HomeScreen;
